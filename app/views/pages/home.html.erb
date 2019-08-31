@@ -1,33 +1,31 @@
-<div class="banner landing-background-img">
-  <div class="d-flex justify-content-between pl-5 pt-4">
-    <div class="text-link">
-      <%= link_to "Become a partner", "#" %>
-    </div>
-    <div class="d-flex justify-content-center pr-5">
-      <div class="text-link pr-5">
-        <%= link_to "Sign in", "#"%>
-      </div>
-      <div class="text-link">
-        <%= link_to "Sign up", "#" %>
-      </div>
-    </div>
+<div class="banner">
+    <video class="video" playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+      <source src="https://res.cloudinary.com/druzpr6hw/video/upload/v1567251772/Pexels_Videos_1826904_fhalpf.mp4" type="video/mp4">
+    </video>
+  <div class="d-flex justify-content-center pt-4">
+    <%= link_to "About us", "#", class:"btn-links"%>
+    <%= link_to "Investment approach", "#", class:"btn-links"%>
+    <%= link_to "Our Team", "#", class:"btn-links" %>
+    <%= link_to "Offices", "#", class:"btn-links" %>
+    <%= link_to "Careers", "#", class:"btn-links" %>
   </div>
   <div class="container">
     <div class="cta-landing-box">
-      <h1 class="hl-1 pb-4">
-        <strong><em>Easily browse for readily available furniture in stores nearby</em></strong>
+      <h1 class="text-center">
+        <span class="d-block headline">Schlonko Capital</span>
+        <span class="pt-2 hl-description">A locally rooted, globally minded private equity investment firm</span>
       </h1>
     </div>
   </div>
-  <div class="text-center d-flex justify-content-center fixed-bottom">
-    <div class="landing-discl-link">
-      <%= link_to "Imprint", "#" %>
+  <div class="text-center d-flex justify-content-center fixed-bottom pb-4">
+    <div>
+      <%= link_to "Imprint", "#", class:"btn-disclaimer" %>
     </div>
-    <div class="landing-discl-link">
-      <%= link_to "Terms", "#" %>
+    <div>
+      <%= link_to "Terms", "#", class:"btn-disclaimer" %>
     </div>
-    <div class="landing-discl-link">
-      <%= link_to "Privacy", "#" %>
+    <div>
+      <%= link_to "Privacy", "#", class:"btn-disclaimer" %>
     </div>
   </div>
 </div>
