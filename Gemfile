@@ -26,6 +26,12 @@ gem 'jbuilder', '~> 2.5'
 # gem 'redis', '~> 4.0'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
+gem 'autoprefixer-rails'
+gem 'font-awesome-sass', '~> 5.6.1'
+gem 'simple_form'
+gem 'cloudinary', '~> 1.9.1'
+gem 'webpacker'
+
 
 # Use ActiveStorage variant
 # gem 'mini_magick', '~> 4.8'
